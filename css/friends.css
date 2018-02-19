@@ -29,6 +29,16 @@
   width: 40px;
   border-radius: 50%;
   margin-right: 15px;
+  animation: 1s rotateFriends ease-in-out;
+}
+
+@keyframes rotateFriends {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .friends__section-row a {
